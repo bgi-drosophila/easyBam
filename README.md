@@ -20,7 +20,7 @@ lasso coords is consistent with stereo-seq web
 Example:
 
 ```bash
-zcat SS200000101TR_A3.gem.gz|sort|uniq|awk '{print($2"_"$3)}'>SS200000101TR_A3_S01.txt
+zcat SS200000101TR_A3.gem.gz|awk '{print($2"_"$3)}'|sort|uniq| >SS200000101TR_A3_S01.txt
 ```
 
 # 3.velocyto 
