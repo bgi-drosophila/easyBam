@@ -24,7 +24,7 @@ This is the flow used to process bam files.
 # 2. count
 
 * -l lasso file,lasso coords is consistent with stereo-seq web
-* -b bam from stereo-seq web
+* -b bam from first step(sorted)
 * -o outputdir
 * -x offset x (from stereo-seq web)
 * -y offset y (from stereo-seq web)
